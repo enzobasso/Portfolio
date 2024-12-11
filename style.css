@@ -1,0 +1,49 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#cover {
+    background: #343a40;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cover h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+#cover p {
+    font-size: 1.5rem;
+}
+
+/* Projects Section */
+#projects .card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #f8d210;
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: white;
+}
